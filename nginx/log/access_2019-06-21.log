@@ -1,0 +1,2 @@
+172.29.0.1 - - [21/Jun/2019:04:03:04 +0000] "GET / HTTP/1.1" 499 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
+172.29.0.1 - - [21/Jun/2019:10:37:58 +0000] "GET / HTTP/1.1" 500 20298 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36" "-"
