@@ -1,0 +1,11 @@
+.idea
+*.log
+
+nginx/log/*.log
+!nginx/log/.gitkeep
+
+php/log/*.log
+!php/log/.gitkeep
+
+/postgres/postgres-data/*
+/gti-manage/composer.lock
