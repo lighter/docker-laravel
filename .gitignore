@@ -9,3 +9,4 @@ php/log/*.log
 
 /postgres/postgres-data/*
 /gti-manage/composer.lock
+yarn.lock
