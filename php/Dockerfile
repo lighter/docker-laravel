@@ -62,6 +62,9 @@ RUN curl -sL https://deb.nodesource.com/setup_8.x | bash
 RUN apt-get install -y nodejs
 RUN npm install --global yarn
 
+# Clear cache
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
+
 COPY crontab /etc/cron.d/backup-cron
 RUN chmod 0644 /etc/cron.d/backup-cron
 RUN crontab /etc/cron.d/backup-cron
